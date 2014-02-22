@@ -8,13 +8,19 @@
   </head>
   <body>
     <h1>PicSelector</h1>
-    <input id="iLink" type="text" placeholder="enter link"/>
-    
-    <img id="iView" class="view"/>
-    
-    <img id="iOutput"class="output"/>
-      
- 
+    <hr>
+    <div class="topLine">
+      <input id="iLink" type="text" value="" placeholder="enter link"/>
+      <button id="btnTest">test</button>
+    </div>
+    <div class="topLine">
+      <img id="iView" class="view"/>
+      <div id="info">info</div>         
+    </div>
+    <hr>
+    <input id="iZoom" type="range" name="points" value="1" min="0.01" max="1.2" step="0.01">
+    <div id="iOutput"class="output"></div>
+     
     <script type="application/dart" src="picselector.dart"></script>
     <script src="packages/browser/dart.js"></script>
   </body>

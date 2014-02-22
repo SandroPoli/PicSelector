@@ -17,14 +17,33 @@ img{
   border: 1px solid red;
 }
 
+input[type='range'] {
+  width:500px;
+}
+
+#iLink{
+  width: 400px;
+}
+
+#btnTest{
+  width: 80px;
+  margin-left: 20px;
+}
+
+.topLine > input,
+.topLine > button{
+  display: inline;
+}
+
 .view{
-  max-width:200px; 
-  max-height:500px;
+  max-width:500px; 
+  max-height:100px;
 }
 
 .output {
-  position: absolute ;
-  top:40px; 
-  left:300px;
-  clip:rect(0px,500px,500px,0px);  
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
 }
